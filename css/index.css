@@ -1,15 +1,22 @@
-#img1{
-   background-image: url('../img/hero_3x.webp');
-   
-}
-body{
-    overflow-x: hidden;
-}
+
 .footerBox{
     column-gap: 10px;
 }
+#handPhoneImg{
+   background-image: url('../img/handPhone-banner.webp');
+    background-size:cover;
+    width: auto;
+    height: 300px;
+    background-position: center;
+}
 
 @media (min-width:800px) {
+
+    #img1{
+        background-image: url('../img/hero_3x.webp');
+        background-size: cover;
+        background-position:center;
+     }
 .img1Box{
     display: flex;
 }
@@ -85,11 +92,16 @@ body{
 }
 
 @media (max-width:900px) {
+    #img1{
+        background-image: url('../img/hero_3xphone.jpg');
+       background-size: 130%;
+       background-repeat: no-repeat;
+     }
     #menuTable{
         display: none;
     }
     .teraBox6{
-        width: 28%;
+        width: 29%;
         
     }
 }
