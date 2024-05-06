@@ -1,0 +1,95 @@
+#img1{
+   background-image: url('../img/hero_3x.webp');
+   
+}
+body{
+    overflow-x: hidden;
+}
+.footerBox{
+    column-gap: 10px;
+}
+
+@media (min-width:800px) {
+.img1Box{
+    display: flex;
+}
+.img1Box div{
+    width: 50%;
+}
+#box2{
+    display: flex;
+    width: screen;
+}
+#box21{
+    height: full;
+    padding-bottom: 20px;
+    width: 50%;
+    
+}
+#box22{
+    
+    height: full;
+    padding-bottom: 20px;
+    width: 50%;
+}
+.portfolio-box{
+    display: flex;
+    padding: 4px; padding-top: 20px;
+}
+.portfolio-box div{
+    text-align: start;
+    width: 50%;
+    height: screen;
+}
+#handPhoneBox{
+    display: flex;
+}
+#handPhoneBox div{
+    width: 50%;
+}
+
+.usdCal{
+    display: flex;
+}
+.usdCal div{
+    width: 50%;
+    height: auto;
+}
+.blueBox{
+    display: flex;
+}
+.blueBox div,.flxBox div{
+    width: 50%;
+}
+.count {
+    display: flex;
+    justify-content: space-between;
+}
+.count div,.flxBox1{
+    width: 30%;
+}
+.afterBlueBox1,.box4,.newCrepto,.flxBox,.flxBoxx{
+    display: flex;
+}
+.afterBlueBox1 .blueBox1,.flxBox2{
+    width: 70%;
+}
+.afterBlueBox1 .blueBox2{
+    width: 30%;
+}
+.crepto3Img{
+    display:flex;
+    justify-content: space-around;
+    column-gap: 50px;
+}
+}
+
+@media (max-width:900px) {
+    #menuTable{
+        display: none;
+    }
+    .teraBox6{
+        width: 28%;
+        
+    }
+}

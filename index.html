@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saurabh</title>
+    <link rel="stylesheet" href="./css/navebar.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <dialog onmouseleave="exDlg2(1)" id="explorDlg" class="w-screen h-auto mt-14 bg-white border shadow rounded">
+        <div class="flex ">
+            <a href="#">
+                <div class="flex hover:shadow place-content-center place-items-center rounded-lg m-4 pl-4 pr-4">
+                    <img src="./img/logoCrypto.svg" alt="" class="w-28 h-28">
+                    <div class="">
+                        <h3 class="text-lg font-semibold">Crypto</h3>
+                        <p class="text-lg text-gray-500">View crypto price and charts</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="flex hover:shadow place-content-center place-items-center rounded-lg m-4 pl-4 pr-4">
+                    <img src="./img/logo2.svg" alt="" class="w-28 h-28">
+                    <div class="">
+                        <h3 class="text-lg font-semibold">ENS Profile</h3>
+                        <p class="text-lg text-gray-500">Build your web# presence today</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="">
+            <a href="#">
+                <div class="flex hover:shadow place-content-center place-items-center rounded-lg m-4 pl-4 w-96 pr-4">
+                    <img src="./img/logoMony3.svg" alt="" class="w-28 h-28">
+                    <div class="">
+                        <h3 class="text-lg font-semibold">Web3</h3>
+                        <p class="text-lg text-gray-500">Dive into the world of dapps</p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </dialog>
+
+    <dialog onmouseleave="exDlg2(2)" id="learnDlg" class="w-screen p-8 h-auto mt-14 bg-white border shadow rounded">
+        <div class="flxBox">
+            <div>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > Tips & Tutorials</span></a>
+                <br>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > Crypto glosary</span></a> <br>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > Web3</span></a> <br>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > Crypto policy</span></a> <br>
+            </div>
+            <div>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > Crypto basics</span></a> <br>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > Update the system</span></a>
+                <br>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > Market updates</span></a> <br>
+            </div>
+            <div>
+                <h1 class="text-xl font-semibold">Crypto Questions, answered</h1>
+                <p class="mt-4 text-xl"> Guides and explainers for your crypto Questions</p>
+                <a href="#" class="mt-6 text-xl font-bold font-sans text-blue-600"> See all articles</a>
+            </div>
+        </div>
+    </dialog>
+
+    <dialog onmouseleave="exDlg2(3)" id="indiDlg" class="w-screen p-8 h-auto mt-14 bg-white border shadow rounded ">
+
+        <div class="flex float-left ">
+            <a href="#">
+                <div class="flex hover:shadow place-content-center place-items-center rounded-lg m-4 pl-4 pr-4">
+                    <img src="./img/indi_logo1.svg" alt="" class="w-14 h-14 mr-2">
+                    <div class="">
+                        <h3 class="text-lg font-semibold">Crypto</h3>
+                        <p class="text-lg text-gray-500">View crypto price and charts</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="flex hover:shadow place-content-center place-items-center rounded-lg m-4 pl-4 pr-4">
+                    <img src="./img/indi_logo2.svg" alt="" class="w-14 h-14 mr-2">
+                    <div class="">
+                        <h3 class="text-lg font-semibold">ENS Profile</h3>
+                        <p class="text-lg text-gray-500">Build your web# presence today</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div>
+            <h1 class="text-xl font-semibold">Crypto tools for everyone</h1>
+            <p class="mt-4 text-xl"> Buy, sell, and trade crypto on the world most trusted crypto exchange</p>
+            <a href="#" class="mt-6 text-xl font-bold font-sans text-blue-600"> See all Prodocts</a>
+        </div>
+    </dialog>
+
+    <dialog onmouseleave="exDlg2(4)" id="busDlg" class="w-screen p-8 h-auto mt-14 bg-white border shadow rounded">
+        <div class="flex justify-between bus3box">
+        <div class="">
+
+        <a href="#" class="mt-2">
+                <div class=" hover:shadow-lg flex h-auto place-content-start place-items-center">
+                <img src="./img/bus_logo1.svg" alt="" class="w-16 h-16 mr-2">
+            <div class=""> 
+                <h2 class="text-lg font-bold ">institution</h2>
+                <p>solution for institution invest</p>
+            </div>
+            </div>
+        </a>
+        <a href="#" class="mt-2">
+            <div class=" hover:shadow-lg flex h-auto place-content-start place-items-center">
+            <img src="./img/bus_logo2.svg" alt="" class="w-16 h-16 mr-2">
+        <div class=""> 
+            <h2 class="text-lg font-bold ">Commerce</h2>
+            <p>Accept crypto from anyone</p>
+        </div>
+        </div>
+    </a>
+    <a href="#" class="mt-2">
+        <div class=" hover:shadow-lg flex h-auto place-content-start place-items-center">
+        <img src="./img/bus_logo3.svg" alt="" class="w-16 h-16 mr-2">
+    <div class=""> 
+        <h2 class="text-lg font-bold ">EXchange</h2>
+        <p>Direct access to our exchange</p>
+    </div>
+    </div>
+</a>
+<a href="#" class="mt-2">
+    <div class=" hover:shadow-lg flex h-auto place-content-start place-items-center">
+    <img src="./img/bus_logo4.svg" alt="" class="w-16 h-16 mr-2">
+<div class=""> 
+    <h2 class="text-lg font-bold ">International Exchange</h2>
+    <p>Direct access to our International</p>
+</div>
+</div>
+</a>
+
+        </div>
+        <div class="">
+
+            <a href="#" class="mt-2">
+                    <div class=" hover:shadow-lg flex h-auto place-content-start place-items-center">
+                    <img src="./img/bus_logo5.svg" alt="" class="w-16 h-16 mr-2">
+                <div class=""> 
+                    <h2 class="text-lg font-bold ">Prime</h2>
+                    <p>The prime brokerge platform</p>
+                </div>
+                </div>
+            </a>
+            <a href="#" class="mt-2">
+                <div class=" hover:shadow-lg flex h-auto place-content-start place-items-center">
+                <img src="./img/bus_logo6.svg" alt="" class="w-16 h-16 mr-2">
+            <div class=""> 
+                <h2 class="text-lg font-bold ">Asset Hub</h2>
+                <p>List your asset on coinbase</p>
+            </div>
+            </div>
+        </a>
+        <a href="#" class="mt-2">
+            <div class=" hover:shadow-lg flex h-auto place-content-start place-items-center">
+            <img src="./img/bus_logo7.svg" alt="" class="w-16 h-16 mr-2">
+        <div class=""> 
+            <h2 class="text-lg font-bold ">Derivatives Exchange</h2>
+            <p>Trade an accessible futures market</p>
+        </div>
+        </div>
+    </a>
+   
+    
+            </div> 
+             <div class="">
+                <h1 class="text-xl font-semibold">Crypto tools for everyone</h1>
+                <p class="mt-4 text-xl"> Buy, sell, and trade crypto on the world most trusted crypto exchange</p>
+                <a href="#" class="mt-6 text-xl font-bold font-sans text-blue-600"> See all Prodocts</a>    
+             </div>
+
+        </div>
+    </dialog>
+
+    <dialog onmouseleave="exDlg2(5)" id="devDlg" class="w-screen p-8 h-auto mt-14 bg-white border shadow rounded">
+        <div class="flex justify-between bus3box">
+        <div class="">
+
+        <a href="#" class="mt-2">
+                <div class=" hover:shadow-lg flex h-auto place-content-start place-items-center">
+                <img src="./img/dev_logo1.svg" alt="" class="w-16 h-16 mr-2">
+            <div class=""> 
+                <h2 class="text-lg font-bold ">Developer Platform</h2>
+                <p>Developer tools and APis</p>
+            </div>
+            </div>
+        </a>
+        <a href="#" class="mt-2">
+            <div class=" hover:shadow-lg flex h-auto place-content-start place-items-center">
+            <img src="./img/dev_logo2.svg" alt="" class="w-16 h-16 mr-2">
+        <div class=""> 
+            <h2 class="text-lg font-bold ">Base</h2>
+            <p>An Ethereum L2 to build dapps</p>
+        </div>
+        </div>
+    </a>
+    <a href="#" class="mt-2">
+        <div class=" hover:shadow-lg flex h-auto place-content-start place-items-center">
+        <img src="./img/dev_logo3.svg" alt="" class="w-16 h-16 mr-2">
+    <div class=""> 
+        <h2 class="text-lg font-bold ">Wallets</h2>
+        <p>Enable the best wallet experience for any user</p>
+    </div>
+    </div>
+</a>
+        </div>
+        <div class="">
+
+            <a href="#" class="mt-2">
+                    <div class=" hover:shadow-lg flex h-auto place-content-start place-items-center">
+                    <img src="./img/dev_logo4.svg" alt="" class="w-16 h-16 mr-2">
+                <div class=""> 
+                    <h2 class="text-lg font-bold ">Onramp</h2>
+                    <p>A secure flat-to-crypto solution</p>
+                </div>
+                </div>
+            </a>
+            <a href="#" class="mt-2">
+                <div class=" hover:shadow-lg flex h-auto place-content-start place-items-center">
+                <img src="./img/dev_logo5.svg" alt="" class="w-16 h-16 mr-2">
+            <div class=""> 
+                <h2 class="text-lg font-bold ">Staking</h2>
+                <p>Staking validators and tooling</p>
+            </div>
+            </div>
+        </a>
+    
+    </div> 
+             <div class="">
+                <h1 class="text-xl font-semibold">build with coinbase</h1>
+                <p class="mt-4 text-xl"> Tools to bring the world onchain</p>
+                <a href="#" class="mt-6 text-xl font-bold font-sans text-blue-600"> See all Prodocts</a>    
+             </div>
+
+        </div>
+    </dialog>
+
+    <dialog onmouseleave="exDlg2(6)" id="comDlg" class="w-screen p-8 h-auto mt-14 bg-white border shadow rounded">
+        <div class="flxBox">
+            <div>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > About</span></a> <br>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > Affiliates</span></a> <br>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > Blog</span></a> <br>
+            </div>
+            <div>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > Careers</span></a> <br>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > Support</span></a>
+                <br>
+                <a href="#"><span class="mt-4 text-lg font-bold text-black font-mono"> > Security</span></a> <br>
+            </div>
+            <div>
+                <h1 class="text-xl font-semibold">Learn All About Coinbase</h1>
+                <p class="mt-4 text-lg"> We're building an open financial system for the world</p>
+            </div>
+        </div>
+    </dialog>
+
+
+    <navebar id="header" class="flex shadow h-14 ">
+        <div class=" place-content-center pl-2" style="width: 300px;">
+            <span class="text-blue-500 text-2xl font-bold">Gyanvi Digital</span>
+        </div>
+
+        <div id="menuTable" class="w-screen place-items-center font-semibold text-lg flex place-content-end">
+            <table class="">
+                <ul class="flex justify-between" style="width: 700px;">
+                    <button onmouseover="exDlg(1)" type="button">
+                        <li class="menu-6">Explor</li>
+                    </button>
+                    <button onmouseover="exDlg(2)" type="button">
+                        <li class="menu-6">Learn</li>
+                    </button>
+                    <button onmouseover="exDlg(3)" type="button">
+                        <li class="menu-6">Individualse</li>
+                    </button>
+                    <button onmouseover="exDlg(4)" type="button">
+                        <li class="menu-6">Businesses</li>
+                    </button>
+                    <button onmouseover="exDlg(5)" type="button">
+                        <li class="menu-6">Developers</li>
+                    </button>
+                    <button onmouseover="exDlg(6)" type="button">
+                        <li class="menu-6">Company</li>
+                    </button>
+                </ul>
+            </table>
+        </div>
+
+        <div class="flex justify-between w-96 p-1 h-full place-items-center place-content-center">
+            <div class="w-1/4 place-content-center flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-globe"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+                </svg>
+            </div>
+            <div class="w-1.5/4 bg-green-600 p-1 font-semibold text-white pl-2 pr-2 hover:bg-green-800 rounded-lg">Sign in</div>
+            <div class="w-1.5/4 bg-blue-600 p-1 font-semibold text-white pl-2 pr-2 hover:bg-blue-800 rounded-lg">Sign up</div>
+        </div>
+    </navebar>
+    <!--content start-->
+    <section>
+        <article class="bg-white">
+            <div class="img1Box">
+                <div class="bg-cover bg-center p-2  h-screen bg-transeparent m-10" id="img1">
+                </div>
+                <div class=" p-20 text-start overflow-hidden">
+                    <h1 class="text-6xl font-semibold font-serif">The future of money is here</h1>
+                    <p class="text-3xl mt-10">We're the most trusted place for people and businesses to buy, sell, and
+                        manage crypto.</p>
+                    <form action="#" method="P" class=" mt-10 place-content-start gap-6">
+                        <fieldset class="border border-black rounded-lg p-2">
+                            <legend>Email Address</legend>
+                            <input type="email" required placeholder="xyz@gmail.com"
+                                class="p-2 text-start place-content-center text-lg rounded-lg border border-black overflow-hidden">
+                            <input type="submit" value="Sign up"
+                                class="p-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-500 active:bg-blue-800 text-semibold">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </article>
+
+        <div id="box2" class="w-cover mb-10 h-full mt-4 p-6 bg-blue-50">
+            <div id="box21" class="box1">
+                <h1 class="mt-10 text-6xl font-semibold font-serif">Explore crypto like Bitcoin, Ethereum, and Dogecoin
+                </h1>
+                <h3 class="mt-4 text-3xl font-semibold font-serif">Simply and securely buy, sell, and manage hundreds of
+                    cryptocurrencies.</h3>
+                <button class="pt-2 pb-2 pr-4 pl-4 mt-4 bg-blue-600 rounded-full text-white text-lg font-semibod">See
+                    More..</button>
+            </div>
+
+            <div id="box22" class="w-screen  mt-10">
+                <div class=" w-cover mb-10 place-items-start">
+                    <button
+                        class="text-lg text-blue-500 font-semibold hover:text-green-600 active:border-blue-600 active:text-blue-800 pt-2 pb-2 pl-4 pr-4 ml-2 hover:border-green-600 border border-blue-600 rounded-full"
+                        type="button">Tradable</button>
+                    <button class="text-lg  font-semibold hover:text-green-700 active:text-green-800 p-2 ml-2"
+                        type="button">Top Gainers</button>
+                    <button class="text-lg  font-semibold hover:text-green-700 active:text-green-800 p-2 ml-2"
+                        type="button">New on Coinbase</button>
+                </div>
+
+                <div id="tradbox" class="w-cover  overflow-hidden">
+                    <div class="flex gap-2">
+                        <div class="w-40 h-40 p-2 rounded-lg bg-white text-start teraBox6">
+                            <img src="./img/dollor.png" class="w-10 h-10" alt="">
+                            <h1 class="text-lg font-semibold mt-2">BitCoin</h1>
+                            <span class="flex font-semibold">&#x20B9; <span> 5,283,856.05</span></span>
+                            <h3 class="flex place-items-center mt-4 font-semibold text-green-600"><span
+                                    class="text-blue-600 font-semibold text-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-arrow-up text-green-600 font-bold" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+                                    </svg></span> 0.58 <span>%</span> </h3>
+                        </div>
+                        <div class="w-40 h-40 p-2 rounded-lg bg-white text-start teraBox6">
+                            <img src="./img/dollor2.png" class="w-10 h-10" alt="">
+                            <h1 class="text-lg font-semibold mt-2">Ethereum</h1>
+                            <span class="flex font-semibold">&#x20B9; <span> 257,758.60</span></span>
+                            <h3 class="flex place-items-center mt-4 font-semibold text-green-600"><span
+                                    class="text-blue-600 font-semibold text-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-arrow-up text-green-600 font-bold" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+                                    </svg></span> 0.74 <span>%</span> </h3>
+
+                        </div>
+                        <div class="w-40 h-40 p-2 rounded-lg bg-white text-start teraBox6">
+                            <img src="./img/tether.png" class="w-10 h-10" alt="">
+                            <h1 class="text-lg font-semibold mt-2">Tether</h1>
+                            <span class="flex font-semibold">&#x20B9; <span> 83.39</span></span>
+                            <h3 class="flex place-items-center mt-4 font-semibold text-green-600"><span
+                                    class="text-blue-600 font-semibold text-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-arrow-up text-green-600 font-bold" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+                                    </svg></span> 0.02 <span>%</span> </h3>
+
+                        </div>
+                    </div>
+                    <div class="flex gap-2 mt-2">
+                        <div class="w-40 h-40 p-2 rounded-lg bg-white text-start teraBox6">
+                            <img src="./img/solana.png" class="w-10 h-10" alt="">
+                            <h1 class="text-lg font-semibold mt-2">Solana</h1>
+                            <span class="flex font-semibold">&#x20B9; <span> 12,081.49</span></span>
+                            <h3 class="flex place-items-center mt-4 font-semibold text-green-600"><span
+                                    class="text-blue-600 font-semibold text-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-arrow-up text-green-600 font-bold" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+                                    </svg></span> 0.02 <span>%</span> </h3>
+
+                        </div>
+                        <div class="w-40 h-40 p-2 rounded-lg bg-white text-start teraBox6">
+                            <img src="./img/usdc.png" class="w-10 h-10" alt="">
+                            <h1 class="text-lg font-semibold mt-2">USDC</h1>
+                            <span class="flex font-semibold">&#x20B9; <span> 83.38</span></span>
+                            <h3 class="flex place-items-center mt-4 font-semibold text-green-600"><span
+                                    class="text-blue-600 font-semibold text-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-arrow-up text-green-600 font-bold" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+                                    </svg></span> 0.00 <span>%</span> </h3>
+
+                        </div>
+                        <div class="w-40 h-40 p-2 rounded-lg bg-white text-start teraBox6">
+                            <img src="./img/xrp.png" class="w-10 h-10" alt="">
+                            <h1 class="text-lg font-semibold mt-2">XRP</h1>
+                            <span class="flex font-semibold">&#x20B9; <span> 43.98</span></span>
+                            <h3 class="flex place-items-center mt-4 font-semibold text-green-600"><span
+                                    class="text-blue-600 font-semibold text-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-arrow-up text-green-600 font-bold" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+                                    </svg></span> 0.45 <span>%</span> </h3>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <article class="portfolio-box">
+            <div class="p-8">
+                <p class="mt-6 text-2xl mb-4">Take control of your money</p>
+                <h1 class="text-4xl font-semibold font-mono mb-6">Start your portfolio today and discover crypto</h1>
+                <p class="text-lg">We’re committed to creating more economic freedom through accessible, safe, and
+                    secure financial tools for everyone</p>
+                <form action="#" method="" class="mt-2 w-cover ">
+                    <label for="email" class="text-lg font-semibod">Email address :</label><br>
+                    <input placeholder="xyz@gmial.com" type="email"
+                        class="w-96 text-xl p-4 border border-gray-200 outline-none text-start rounded-lg" required>
+                    <br>
+                    <input type="submit"
+                        class="bg-blue-600 text-center hover:bg-blue-700 active:bg-blue-900 p-2 w-96 mt-2 rounded-xl font-bold text-lg text-white">
+                </form>
+            </div>
+            <div class="grid place-items-center place-content-center p-14 ">
+                <img src="./img/coinCircle.webp" class="" alt="">
+            </div>
+        </article>
+
+        <article class=" bg-gray-800 text-white grid ">
+            <div class="p-12" id="handPhoneBox">
+                <div class="">
+                    <h1 class="text-4xl font-semibold mb-8">USDC is the dollar for the digital age</h1>
+                </div>
+                <div class="">
+                    <p class="text-lg text-lg mb-6">USDC gives you 24/7 access to payments and financial services.
+                        Trade, spend, and send faster and more efficiently.</p>
+                    <button
+                        class="bg-white rounded-xl mb-8 text-center p-3 font-semibold w-96  text-gray-800 font-semibod text-lg">Learn
+                        More</button>
+                </div>
+            </div>
+            <div class="overflow-hidden ">
+                <img src="./img/handPhone-banner.webp" class="w-full h-96" alt="">
+            </div>
+        </article>
+
+        <article class="usdCal border-b">
+            <div class="p-20">
+                <img src="./img/usdCal.webp" class="w-cover  h-full" alt="usdCal">
+            </div>
+            <div class=" place-content-center place-items-center p-16 w-auto">
+                <div class="mb-14 flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-grid-fill text-blue-500" viewBox="0 0 16 16">
+                        <path
+                            d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z" />
+                    </svg>
+                    <span class="text-3xl font-bold font-serif ml-6">COINBASE</span>
+                </div>
+                <h1 class="text-6xl mb-14">Buy, sell, and store hundreds of cryptocurrencies</h1>
+                <p class="text-lg mb-14">From Bitcoin to Dogecoin, we make it easy to buy and sell cryptocurrency.
+                    Protect your crypto with best in class cold storage.</p>
+                <button class="w-96 rounded-lg bg-blue-600 p-3 text-lg text-white font-semibold">start trading</button>
+
+            </div>
+
+        </article>
+
+        <article class="usdCal border-b ">
+            <div class=" place-content-center place-items-center p-16 w-auto">
+                <div class="mb-14 flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-grid-fill text-blue-500" viewBox="0 0 16 16">
+                        <path
+                            d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z" />
+                    </svg>
+                    <span class="text-3xl font-bold font-serif ml-6">ADVANCED</span>
+                </div>
+                <h1 class="text-6xl mb-14">Powerful tools, designed for the advanced trader</h1>
+                <p class="text-lg mb-14">Powerful analytical tools with the safety and security of Coinbase deliver the
+                    ultimate trading experience. Tap into sophisticated charting capabilities, real-time order books,
+                    and deep liquidity across hundreds of markets.</p>
+                <button class="w-96 rounded-lg bg-blue-600 p-3 text-lg text-white font-semibold">start trading</button>
+
+            </div>
+            <div class="p-20 ">
+                <img src="./img/shareInPhone.webp" class="w-cover  h-full" alt="usdCal">
+            </div>
+
+
+        </article>
+
+        <article class="usdCal border-b">
+            <div class="p-20 ">
+                <img src="./img/Wallet.webp" class="w-cover  h-full" alt="usdCal">
+            </div>
+            <div class=" place-content-center place-items-center p-16 w-auto">
+                <div class="mb-14 flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-grid-fill text-blue-500" viewBox="0 0 16 16">
+                        <path
+                            d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z" />
+                    </svg>
+                    <span class="text-3xl font-bold font-serif ml-6">WALLET</span>
+                </div>
+                <h1 class="text-6xl mb-14">Do more with your crypto with Coinbase Wallet</h1>
+                <p class="text-lg mb-14">Store your crypto in your own personal crypto wallet and explore decentralized
+                    finance (DeFi), buy and sell NFTs, and more.</p>
+                <button class="w-96 rounded-lg bg-blue-600 p-3 text-lg text-white font-semibold">Learn More</button>
+
+            </div>
+
+        </article>
+
+        <article class="usdCal border-b">
+            <div class=" place-content-center place-items-center p-16 w-auto">
+                <div class="mb-14 flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-grid-fill text-blue-500" viewBox="0 0 16 16">
+                        <path
+                            d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z" />
+                    </svg>
+                    <span class="text-3xl font-bold font-serif ml-6">PRIME</span>
+                </div>
+                <h1 class="text-6xl mb-14">The financial institution for a digital asset future</h1>
+                <p class="text-lg mb-14"> Coinbase Prime is the first choice for sophisticated investors and
+                    institutions that want to invest in digital assets.</p>
+                <button class="w-96 rounded-lg bg-blue-600 p-3 text-lg text-white font-semibold">Learn More</button>
+
+            </div>
+            <div class="p-20 ">
+                <img src="./img/walet2.webp" class="w-cover  h-full" alt="usdCal">
+            </div>
+        </article>
+
+        <div class="p-10 bg-blue-800 ">
+            <div class="text-white blueBox">
+                <div class=" ">
+                    <h1 class="text-4xl font-semibold float-left">Get started in a few minutes</h1>
+                </div>
+                <div class=" p-8 ">
+                    <p class="text-xl">
+                        Create an account, link your bank account, and start buying & selling.
+                    </p>
+                    <button
+                        class="w-40 active:bg-green-800 hover:bg-green-500 hover:text-white rounded-lg bg-white mt-4 p-3 text-lg text-blue-600 font-semibold">Create
+                        account</button>
+                </div>
+            </div>
+            <div class="w-cover  count">
+                <div class="text-white p-4 w-cover text-center">
+                    <h1 style="font-size: 90px" class=" font-semibod font-mono">
+                        <span>$</span><span>145</span><span>B</span>
+                    </h1>
+                    <p class="text-lg">QUARTERLY VOLUME TRADED</p>
+                </div>
+                <div class="text-white p-4 w-cover text-center">
+                    <h1 style="font-size: 90px" class=" font-semibod font-mono">
+                        <span></span><span>100</span><span>+</span>
+                    </h1>
+                    <p class="text-lg">COUNTRIES SUPPORTED</p>
+                </div>
+                <div class="text-white p-4 w-cover text-center">
+                    <h1 style="font-size: 90px" class=" font-semibod font-mono">
+                        <span>$</span><span>130</span><span>B</span>
+                    </h1>
+                    <p class="text-lg">ASSETS ON PLATFORM</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="">
+
+            <div class="p-8 afterBlueBox1">
+                <div class="w-cover font-sans blueBox1">
+                    <h1 class="text-4xl mb-4">The most trusted cryptocurrency exchange</h1>
+                    <p class="text-xl">We're the most trusted place for people and businesses to buy, sell, and manage
+                        crypto.</p>
+                </div>
+                <div class=" text-end blueBox2">
+                    <button
+                        class="w-40 active:bg-green-800 hover:bg-green-500 text-white rounded-lg bg-blue-600 mt-4 p-3 text-lg font-semibold">Create
+                        account</button>
+                </div>
+            </div>
+
+            <div class="box4 ">
+
+                <div class="text-start border hover:shadow-lg shadow-black m-4 h-96 p-6 flex flex-wrap content-between">
+                    <img class="w-20 h-20" src="./img/worldwide-4.svg" alt="">
+                    <h1 class="text-3xl">The largest public crypto company</h1>
+                    <p class="text-lg">We operate with financial transparency.</p>
+                </div>
+
+                <div class="text-start border hover:shadow-lg shadow-black m-4 h-96 p-6 flex flex-wrap content-between">
+                    <img class="w-20 h-20" src="./img/safe-4.svg" alt="">
+                    <h1 class="text-3xl">Your assets are protected</h1>
+                    <p class="text-lg">Our risk management measures are designed to protect your assets.</p>
+                </div>
+
+                <div class="text-start border hover:shadow-lg shadow-black m-4 h-96 p-6 flex flex-wrap content-between">
+                    <img class="w-20 h-20" src="./img/support-4.svg" alt="">
+                    <h1 class="text-3xl">Get the help you need, when you need it</h1>
+                    <p class="text-lg">You can always contact our support team for quick solutions to common problems.
+                    </p>
+                </div>
+
+                <div class="text-start border hover:shadow-lg shadow-black m-4 h-96 p-6 flex flex-wrap content-between">
+                    <img class="w-20 h-20" src="./img/economyGlobal-4.svg" alt="">
+                    <h1 class="text-3xl">Industry best practices</h1>
+                    <p class="text-lg">Coinbase supports a variety of the most popular digital currencies.</p>
+                </div>
+
+            </div>
+
+            <article class="">
+                <div class="w-cover p-4 bg-blue-100 ">
+                    <div class="newCrepto mb-6">
+                        <div class="p-4">
+                            <h1 class="text-4xl">New to crypto? Learn some crypto basics</h1>
+                            <p>Beginner guides, practical tips, and market updates for first-timers, experienced
+                                investors, and everyone in between</p>
+                        </div>
+                        <div class="">
+                            <button
+                                class="w-40 active:bg-green-800 hover:bg-green-500 text-white rounded-lg bg-blue-600 mt-4 p-3 text-lg font-semibold">Read
+                                More</button>
+                        </div>
+                    </div>
+                    <div class="crepto3Img mb-6 ">
+                        <article class=" rounded-lg w-auto mb-6">
+                            <img src="./img/digitalDolor3.webp" alt="" class="w-full h-60 rounded-lg">
+                            <h1 class="text-3xl hover:text-blue-600 mt-4">USDC: The digital dollar for the global crypto
+                                economy</h1>
+                            <p class="mt-4 text-lg ">Coinbase believes crypto will be part of the solution for creating
+                                an open financial system that is both more efficient and more equitable. We co-founded
+                                the Centre Consortium in 2018 to invest in the build of USDC, and since then it has
+                                become the second largest stablecoin by market capitalization.</p>
+                        </article>
+                        <article class=" rounded-lg w-auto mb-6 ">
+                            <img src="./img/CreptoBank3.webp" alt="" class="w-full h-60 rounded-lg">
+                            <h1 class="text-3xl hover:text-blue-600 mt-4">Can crypto really replace your bank account?
+                            </h1>
+                            <p class="mt-4 text-lg ">If you’re a big enough fan of crypto, you’ve probably heard the
+                                phrase “be your own bank” or the term “bankless” — the idea being that crypto can offer
+                                more control over your financial future than traditional finance. But how much of your
+                                financial life really can be accomplished via crypto?</p>
+                        </article>
+                        <article class=" rounded-lg w-auto mb-6 ">
+                            <img src="./img/creptoTime3.webp" alt="" class="w-full h-60 rounded-lg">
+                            <h1 class="text-3xl hover:text-blue-600 mt-4">When is the best time to invest in crypto?
+                            </h1>
+                            <p class="mt-4 text-lg ">Cryptocurrencies like Bitcoin can experience daily (or even hourly)
+                                price volatility. As with any kind of investment, volatility may cause uncertainty, fear
+                                of missing out, or fear of participating at all. When prices are fluctuating, how do you
+                                know when to buy?</p>
+                        </article>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <article class="flxBox m-4">
+            <div class="grid place-content-center place-items-start ">
+                <h1 class="text-4xl font-mono font-semibold mb-4">The freedom of crypto for everyone, everywhere</h1>
+                <p class="text-lg text-black font-semibold mb-6">We’re committed to creating more economic freedom
+                    through accessible, safe, and secure financial tools for everyone.</p>
+                <button
+                    class="w-40 active:bg-green-800 hover:bg-green-500 text-white rounded-lg bg-blue-600 mt-4 p-3 text-lg font-semibold">Read
+                    More</button>
+
+            </div>
+            <div class="h-screen">
+                <img src="./img/peopleWalk.webp" class="w-auto h-screen" alt="">
+            </div>
+        </article>
+
+    </section>
+
+    <footer>
+        <div class="bg-gray-900 text-white place-items-center h-72 pl-4 pr-4 flxBoxx">
+            <div class="flxBox1 ml-10">
+                <h1 class="text-5xl font-serif">Start your portfolio today</h1>
+            </div>
+            <div class=" flxBox2">
+                <p class="text-sm mb-4">Sign up for a Coinbase account today and see what the world of decentralized
+                    finance can do for you.</p>
+                <button
+                    class="w-32 active:bg-green-800 hover:bg-green-500 text-black rounded-full bg-white mt-4 p-3 text-lg font-semibold">Read
+                    More</button>
+
+            </div>
+        </div>
+
+        <article class="p-10 bg-gray-100 flxBox">
+            <div class="footerBox ">
+                <h1 class="text-3xl font-mono text-blue-600">Gyanvi Digital</h1>
+                <p class="text-gray-400 text-lg">@2024 GyanviDigital</p>
+                <li class="text-lg hover:border-b-2 w-40 border-blue-600 text-blue-500">Blog</li>
+                <li class="text-lg hover:border-b-2 w-40 border-blue-600 text-blue-500">Twitter</li>
+                <li class="text-lg hover:border-b-2 w-40 border-blue-600 text-blue-500">FaceBook</li>
+            </div>
+            <div class="footerBox gap-y-6">
+                <h3 class="text-semibold text-lg font-black">Company</h3>
+                <a href="#">
+                    <p class="text-lg text-gray-500">About</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500"> Careers</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Affiliates </p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Blog </p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Press </p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Security </p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Investors </p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Vendors </p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Legal & Privacy </p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Cookie Policy </p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Do Not Share My Personal Information </p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Digital Asset Disclosures </p>
+                </a>
+
+                <h3 class="text-semibold text-lg mt-4 font-black">Learn</h3>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Bitcoin Halving</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Ethereum Merge</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Explore</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Coinbase Bytes newsletter</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Crypto basics</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Tips & tutorials</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Crypto glossary</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Market updates</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">What is Bitcoin?</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">What is crypto?</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">What is a blockchain?</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">How to set up a crypto wallet</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">How to send crypto</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Taxes</p>
+                </a>
+
+            </div>
+
+            <div class="footerBox ">
+
+                <h3 class="text-semibold text-lg font-black">Individuals</h3>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Buy & sell</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Earn free crypto</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Wallet</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">NFT</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Card</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Coinbase One</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Businesses
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Institutional</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Prime</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Asset Hub</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Commerce</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Derivatives Exchange</p>
+                        </a>
+
+                        <h3 class="text-semibold text-lg mt-4 font-black">Businesses</h3>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Developer Platform</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Base</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Staking</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Onramp</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Wallets</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Wallet SDK</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Sign in with Coinbase</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Exchange API</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Prime API</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Base Node</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Build Onchain Apps</p>
+                        </a>
+
+                        <h3 class="text-semibold text-lg mt-4 font-black">Developers</h3>
+
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Developer Platform</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Base</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Staking</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Onramp</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Wallets</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Wallet SDK</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Sign in with Coinbase</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Exchange API</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Prime API</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Base Node</p>
+                        </a>
+                        <a href="#">
+                            <p class="text-lg text-gray-500">Build Onchain Apps</p>
+                        </a>
+            </div>
+            <div class="footerBox  ">
+
+                <h3 class="text-semibold text-lg font-black"> Support</h3>
+
+                <a href="#">
+                    <p class="text-lg text-gray-500">Help center</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Contact us</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Create account</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">ID verification</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Account information</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Payment methods</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Account access</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Supported crypto</p>
+                </a>
+                <a href="#">
+                    <p class="text-lg text-gray-500">Status</p>
+                </a>
+            </div>
+        </article>
+    </footer>
+
+
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>

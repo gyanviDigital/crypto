@@ -1,0 +1,15 @@
+.menu-6:hover{
+   border-bottom: 2px solid blue;
+  
+}
+.menu-6{
+    border-bottom: 2px solid transparent;
+    height: full;
+    padding: 10px ;
+}
+#header{
+    position:sticky;
+  margin-top: 10px;
+  top: 0px;
+  background-color: white;
+}
